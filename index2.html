@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Convertor Fahrenheit - Celsius</title>
+</head>
+<body>
+<form>
+	<table border="1">
+		<tr>
+			<td>Fahrenheit</td>
+			<td><input type="number" id="farenheit" name="farenheit" step="any" required=""></td>
+			<td><button type="button" onclick="convertirCelsius(); return false">Convert to Celsius</button></td>
+		</tr>
+		<tr>
+			<td>Celsius</td>
+			<td><input type="number" id="celsius" name="celsius" step="0.01" required=""></td>
+			<td><button type="button" onclick="convertirFarenheit(); return false">Convert to Farenheit</button></td>
+		</tr>
+	</table>
+</form>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
